@@ -2,7 +2,7 @@ import streamlit as st
 import functions
 
 todos = functions.get_todos()
-
+# my to do app
 
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
